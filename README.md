@@ -5,7 +5,7 @@ Embeddings*. It contains the Fre-E2T mechanism used for the main results
 (Table 1) and the script that computes the end-to-end privacy guarantee
 (Theorem 4, hyperparameters in Appendix A.1).
 
-Pipeline: 
+Algorithm pipeline: 
 1. embed each text with GTR-T5-base
 2. random Gaussian projection to k dimensions
 3. bucketize with a randomly offset grid
