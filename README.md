@@ -5,11 +5,13 @@ Embeddings*. It contains the Fre-E2T mechanism used for the main results
 (Table 1) and the script that computes the end-to-end privacy guarantee
 (Theorem 4, hyperparameters in Appendix A.1).
 
-Pipeline: embed each text with GTR-T5-base (mean pooling, no normalization,
-d = 768) → random Gaussian projection to k dimensions → bucketize with a
-randomly offset grid → release heavy buckets via subsampling + thresholding →
-add Gaussian noise to the per-bucket embedding sums → invert the noisy
-centroids back to text with vec2text.
+Pipeline: 
+1. embed each text with GTR-T5-base
+2. random Gaussian projection to k dimensions
+3. bucketize with a randomly offset grid
+4. release heavy buckets via subsampling + thresholding
+5. add Gaussian noise to the per-bucket embedding sums
+6. invert the noisy centroids back to text with vec2text.
 
 ## Contents
 
