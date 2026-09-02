@@ -3,7 +3,7 @@
 Code for the PoPETs paper *Distributed and Private Textual Data Synthesis from
 Embeddings*. It contains the Fre-E2T mechanism used for the main results and the script that computes the end-to-end privacy guarantee.
 
-Algorithm pipeline: 
+Algorithm pipeline of Fre-E2T: 
 1. embed each text with GTR-T5-base
 2. random Gaussian projection to k dimensions
 3. bucketize with a randomly offset grid
