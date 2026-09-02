@@ -148,10 +148,6 @@ paper):
 | 8  | 2.7726 | 3.80×10⁻¹³ | 8.95×10⁻¹¹ | 5.1808  | **7.9534**  | **10⁻⁶** |
 | 16 | 2.7489 | 1.76×10⁻¹¹ | 8.95×10⁻¹¹ | 13.2165 | **15.9654** | **10⁻⁶** |
 
-So each run is certified at slightly below its nominal budget. The commented
-block at the end of `end_to_end_DP_analysis.py` lists the invocations for the
-other projection dimensions k ∈ {10, 15, 25, 30} used in the ablations.
-
 ## License
 
 MIT, see `LICENSE`.
